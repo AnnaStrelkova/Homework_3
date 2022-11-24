@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    
+    <ul class="btn-list">
+      
+      <li class="btn-list__item">
+        <button id="create" class="create-table btn">создать таблицу</button>
+      </li>
+
+      <li class="btn-list__item">
+        <button id="add-line" class="add-line btn" disabled>добавить строку</button>
+      </li>
+
+      <li class="btn-list__item">
+       
+        <label class="delete-label">
+          <button id="delete-line" class="delete-line btn" disabled>удалить строку</button>
+          <input id="delete-input" type="number" class="delete-input" placeholder="номер строки">
+        </label>
+
+      </li>
+
+    </ul>
+
+  </header>
+
+  <main id="main" class="main"></main>
+
+</body>
+</html>
